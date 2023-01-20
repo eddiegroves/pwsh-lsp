@@ -1,0 +1,6 @@
+install:
+  rm -rf ./PowerShellEditorServices
+  curl --location -O "https://github.com/PowerShell/PowerShellEditorServices/releases/latest/download/PowerShellEditorServices.zip"
+  unzip PowerShellEditorServices.zip -d PowerShellEditorServices
+  rm PowerShellEditorServices.zip
+

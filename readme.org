@@ -1,0 +1,13 @@
+* Powershell LSP installer
+
+Helps install the [[https://github.com/PowerShell/PowerShellEditorServices][PowerShell LSP]] by:
+
+1. Remove any existing version in current directory.
+2. Download and unzip latest release of =PowerShellEditorServices=.
+
+Editors (in my case, Emacs with lsp-mode) need to be configured to point to
+=PowerShellEditorServices= directory.
+
+#+begin_src emacs-lisp
+(setq lsp-pwsh-dir "/path/to/pwsh-lsp/PowerShellEditorServices")
+#+end_src
