@@ -11,3 +11,13 @@ Editors (in my case, Emacs with lsp-mode) need to be configured to point to
 #+begin_src emacs-lisp
 (setq lsp-pwsh-dir "/path/to/pwsh-lsp/PowerShellEditorServices")
 #+end_src
+
+** Usage
+
+Using [[https://github.com/TekWizely/run][run]]:
+
+#+begin_src sh
+run install
+#+end_src
+
+The install script is very simple and could be manully run step-by-step.
